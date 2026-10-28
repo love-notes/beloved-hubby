@@ -18,7 +18,6 @@
     --text:#DCCBA9;      /* warm light body text */
     --cream:#FAF6EC;     /* polaroid frame white — pops against dark bg */
     --shadow:rgba(0,0,0,.55);
-    --spotify:#C98A8C;   /* Spotify green for CTA */
   }
 
   *{box-sizing:border-box; margin:0; padding:0;}
@@ -378,24 +377,6 @@
 
   .photo-tag{ display:flex; flex-direction:column; gap:6px; align-items:center; }
 
-  /* Spotify CTA */
-  .spotify-btn{
-    display:inline-flex;
-    gap:10px;
-    align-items:center;
-    background:var(--spotify);
-    color:white;
-    padding:10px 16px;
-    border-radius:999px;
-    text-decoration:none;
-    font-weight:600;
-    box-shadow:0 8px 20px rgba(0,0,0,.45);
-    transition:transform .18s ease, box-shadow .18s ease, opacity .18s ease;
-    margin-top:8px;
-  }
-  .spotify-btn:hover{ transform:translateY(-4px); box-shadow:0 16px 36px rgba(0,0,0,.55); opacity:0.98; }
-  .spotify-btn:active{ transform:translateY(-1px); }
-
   /* ============ RESPONSIVE ============ */
   @media (max-width:640px){
     .s3-grid{
@@ -627,6 +608,7 @@
   </div>
 </section>
 
+<!-- ============ SECTION 6 : FINAL COLLAGE ============ -->
 <section id="s6">
   <div class="s6-wrap">
     <div class="s6-toprow reveal">
@@ -646,11 +628,6 @@
     </div>
     <div class="s6-love reveal d3">Love</div>
     <div class="s6-footer reveal d4">Made with love for you!</div>
-
-    <a class="spotify-btn" id="spotifyBtn" href="https://open.spotify.com/playlist/7rrQA6cuS9AGxDeonPoOOU" target="_blank" rel="noopener noreferrer" aria-label="Open playlist on Spotify">
-      Our Playlist ♡
-    </a>
-
   </div>
 </section>
 
